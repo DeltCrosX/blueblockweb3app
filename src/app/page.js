@@ -243,10 +243,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="max-w-screen grid grid-flow-col grid-cols-2 grid-rows-4 bg-gradient-to-r from-gray-800 to-slate-800 justify-center p-7">
-          {/* main sections */}
-          
-        </div>
         <footer className="max-w-screen grid grid-flow-col grid-cols-1 grid-rows-1 bg-gradient-to-r from-slate-600 to-slate-500 justify-center p-7">
           {/* just a fucking footer */}
           <p className="text-xl place-self-center justify-center"> &copy;Copyright 2023 : BlueblockProduction, Inc.</p>
