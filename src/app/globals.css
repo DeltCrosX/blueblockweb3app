@@ -25,3 +25,70 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@font-face {
+  font-family: 'Rajdhani', sans-serif;
+  src: url('https: //fonts.googleapis.com/css2?family=Anuphan:wght@100;200;300;400;500;600;700&display=swap');
+}
+@font-face {
+  font-family: 'Anuphan', sans-serif;
+  src: url('https: //fonts.googleapis.com/css2?family=Anuphan:wght@100;200;300;400;500;600;700&display=swap');
+}
+
+.styletext-rajdhani-100 {
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 100;
+}
+.styletext-rajdhani-200 {
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 200;
+}
+.styletext-rajdhani-300 {
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 300;
+}
+.styletext-rajdhani-400 {
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 400;
+}
+.styletext-rajdhani-500 {
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 500;
+}
+.styletext-rajdhani-600 {
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 600;
+}
+.styletext-rajdhani-700 {
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 700;
+}
+
+.styletext-anuphan-100 {
+  font-family: 'Anuphan', sans-serif;
+  font-weight: 100;
+}
+.styletext-anuphan-200 {
+  font-family: 'Anuphan', sans-serif;
+  font-weight: 200;
+}
+.styletext-anuphan-300 {
+  font-family: 'Anuphan', sans-serif;
+  font-weight: 300;
+}
+.styletext-anuphan-400 {
+  font-family: 'Anuphan', sans-serif;
+  font-weight: 400;
+}
+.styletext-anuphan-500 {
+  font-family: 'Anuphan', sans-serif;
+  font-weight: 500;
+}
+.styletext-anuphan-600 {
+  font-family: 'Anuphan', sans-serif;
+  font-weight: 600;
+}
+.styletext-anuphan-700 {
+  font-family: 'Anuphan', sans-serif;
+  font-weight: 700;
+}
