@@ -1,21 +1,20 @@
 import Image from "next/image";
 import LogosPic from "./BoxTech.svg";
 import Head from 'next/head';
-import TitleLogos from "./favicon.ico";
 import Showcaseimage1 from "./assets/ShowcaseIMG.png";
 
-const Page = (props) => { 
+const Page = (props) => {
   <div>
     <Head>
-      <link rel="shortcut icon" href={TitleLogos}/>
+      <link rel="shortcut icon" href={TitleLogos} />
     </Head>
   </div>
 }
 
-export default function Home() { 
+export default function Home() {
   //code
-  return(
-    <html>
+  return (
+    <main>
       <body className="default:dark:bg-gradient-to-r default:dark:from-slate-800 default:dark:to-slate-700 default:dark:text-gray-150">
         {/* code */}
         <nav className="bg-transparent from-slate-500 to-slate-700 border-gray-200 dark:bg-gradient-to-r dark:from-slate-500 dark:to-slate-700">
@@ -86,7 +85,7 @@ export default function Home() {
         </nav>
         <div className="py-56 px-1 text-center justify-items-center snap-both first-letter:capitalize flex min-w-screen flex-col items-center font-normal bg-gradient-to-r from-slate-500 to-slate-700">
           {/* main hero sections */}
-          
+
           <div className="container justify-items-center">
             <strong className="text-7xl text-white font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-teal-500 to-cyan-500">BLUEBLOCKPRODUCTION</strong>
             <br>
@@ -177,7 +176,7 @@ export default function Home() {
             </code>
             <div className="px-10 py-0 grid grid-flow-col grid-cols-2 grid-rows-1 justify-center content-center place-content-center">
               <h1 className="float-left text-left text-4xl font-medium">Our software depends on <code className="font-semibold text-gray-500">`Client/Users`</code> requirements <br></br> We work to make sure user got the best <strong className="text-yellow-500">EXPERIENCES</strong> from our software!</h1>
-              
+
             </div>
             <div className="grid grid-flow-col grid-cols-4 grid-rows-1 gap-3 justify-center px-10 py-11">
               <a
@@ -248,11 +247,11 @@ export default function Home() {
           <p className="text-xl place-self-center justify-center"> &copy;Copyright 2023 : BlueblockProduction, Inc.</p>
         </footer>
       </body>
-    </html> 
+    </main>
   )
 }
 
-export async function getServerSideProps() { 
+export async function getServerSideProps() {
   //code
   const res = await fetch(`https://theredprod.cf/data`)
   const data = await res.json()
